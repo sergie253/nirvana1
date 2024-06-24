@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Discos</title>
+    <style>
+        /* Estilos simples para el diseño */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .disco {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+        .disco img {
+            float: left;
+            margin-right: 10px;
+            max-width: 100px;
+            max-height: 100px;
+        }
+        .disco h2 {
+            margin-top: 0;
+            font-size: 18px;
+        }
+        .disco p {
+            margin: 5px 0;
+        }
+
+        /* Media query para dispositivos de hasta 768px de ancho */
+        @media (max-width: 768px) {
+            .disco {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .disco img {
+                float: none;
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Nirvana</h1>
+
+    <div class="disco">
+        <img src="disco1.jpg" alt="Disco 1">
+        <h2>Nevermind</h2>
+        <p><strong>Precio:</strong> $299</p>
+        <p><strong>Características:</strong> segundo álbum de estudio de la banda estadounidense de grunge Nirvana, publicado el 24 de septiembre de 1991.</p>
+    </div>
+
+    <div class="disco">
+        <img src="disco2.jpg" alt="Disco 2">
+        <h2>In Utero</h2>
+        <p><strong>Precio:</strong> $300</p>
+        <p><strong>Características:</strong> tercer y último álbum de estudio de la banda estadounidense de grunge Nirvana, lanzado en septiembre de 1993 por DGC Records.</p>
+    </div>
+
+    <div class="disco">
+        <img src="disco3.jpg" alt="Disco 3">
+        <h2>MTV Unplugged in New York</h2>
+        <p><strong>Precio:</strong> $600</p>
+        <p><strong>Características:</strong> es el primer álbum en vivo de la banda de rock estadounidense Nirvana, lanzado por DGC Records el 1 de noviembre de 1994.</p>
+    </div>
+
+    <div class="disco">
+        <img src="disco4.jpg" alt="Disco 4">
+        <h2>Bleach</h2>
+        <p><strong>Precio:</strong> $350</p>
+        <p><strong>Características:</strong> es el álbum de estudio debut de la banda de rock estadounidense Nirvana, lanzado el 15 de junio de 1989 por Sub Pop.</p>
+    </div>
+
+    <div class="disco">
+        <img src="disco5.jpg" alt="Disco 5">
+        <h2>Live at Reading</h2>
+        <p><strong>Precio:</strong> $255</p>
+        <p><strong>Características:</strong> es el tercer CD/DVD en vivo del grupo musical estadounidense de grunge Nirvana, lanzado el 2 de noviembre de 2009.</p>
+    </div>
+
+</body>
+</html>
